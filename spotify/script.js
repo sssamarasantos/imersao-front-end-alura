@@ -4,7 +4,7 @@ const resultPlaylist = document.getElementById('result-playlists');
 
 requestApi = (searchTerm) => {
     //json-server --version = 0.17.4
-    const url = `http://localhost:3001/artists?name_like=${searchTerm}`;
+    const url = `http://localhost:3000/artists?name_like=${searchTerm}`;
     fetch(url)
         .then((response) => response.json())
         .then((result) => displayResults(result));
