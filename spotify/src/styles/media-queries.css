@@ -2,4 +2,8 @@
     .offer__list-item {
         grid-template-columns: 1fr 1fr;
     }
+
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
 }
